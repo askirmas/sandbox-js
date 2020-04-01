@@ -24,7 +24,7 @@ for (let i = measures; i--; ) {
   start = performance.now()
   
   for (let i = measures; i--; ) {
-    value = arr.map(x => x)
+    value = arr.map(idfn)
   }
 
   measured[1] += performance.now() - start - dp
